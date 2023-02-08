@@ -1,0 +1,504 @@
+/**************************/
+/* BELOW 1344px */
+/**************************/
+
+@media (max-width: 84em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+  .container {
+    padding-inline: 5rem;
+  }
+
+  .member-data {
+    padding-inline: 2rem;
+  }
+
+  .testimonials-heading {
+    font-size: 4rem;
+  }
+
+  .arrow-icons-container {
+    margin: auto;
+  }
+}
+
+/**************************/
+/* BELOW 1104px */
+/**************************/
+
+@media (max-width: 69em) {
+  .team-container {
+    gap: 8.4rem 3.2rem;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .member {
+    max-width: 45rem;
+    height: 61rem;
+  }
+
+  .member:nth-child(1) {
+    grid-row: 3/4;
+  }
+  .member:nth-child(3) {
+    grid-column: 2/-1;
+  }
+  .member:nth-child(4) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .member:nth-child(5) {
+    grid-row: 1/2;
+  }
+
+  .member-data {
+    padding: 2.4rem;
+    height: 45%;
+    top: 55%;
+  }
+
+  .heading-content,
+  .testimonials-container,
+  .positions-container,
+  .cta-container {
+    padding-block: 7.6rem;
+  }
+
+  .feautures-items {
+    margin-bottom: 7.6rem;
+  }
+
+  .working-details:last-child {
+    margin-bottom: 0;
+  }
+
+  .testimonials-container {
+    flex-wrap: wrap;
+    row-gap: 6rem;
+    justify-content: center;
+  }
+
+  .testimonials-text-box {
+    padding-top: 0;
+  }
+
+  .testimonials-attributes {
+    width: 60%;
+  }
+}
+
+/**************************/
+/* BELOW 976px */
+/**************************/
+
+@media (max-width: 61em) {
+  .main-nav-lists {
+    gap: 2.5rem;
+  }
+
+  .header-nav {
+    gap: 3rem;
+  }
+  .down-icon {
+    margin-left: 0.3rem;
+  }
+
+  .heading-content,
+  .testimonials-container,
+  .positions-container,
+  .cta-container {
+    padding-block: 6.5rem;
+  }
+
+  .feautures-items {
+    margin-bottom: 6.6rem;
+  }
+  .positions-content {
+    margin-bottom: 5.4rem;
+  }
+
+  .member {
+    max-width: 38.4rem;
+    height: 50rem;
+  }
+
+  .primary-text-box {
+    width: 36rem;
+  }
+}
+
+/**************************/
+/* BELOW 864px */
+/**************************/
+
+@media (max-width: 54em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .container {
+    padding-inline: 3rem;
+  }
+
+  /**************************/
+  /* MOBILE*/
+  /**************************/
+
+  .btn-mobile-nav {
+    display: block;
+    margin-left: auto;
+    z-index: 5;
+  }
+
+  .nav-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 0.5s ease-in;
+
+    position: absolute;
+    top: 0;
+    left: 60%;
+    width: 40%;
+    height: 100vh;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    z-index: 4;
+
+    /* ********************** */
+    /*  Hide the navigation */
+    /* ********************** */
+
+    /* 1) Hide visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screenreaders */
+    visibility: hidden;
+  }
+
+  /* //////////////////////////////////// */
+
+  .options-container {
+    position: static;
+    width: 105%;
+  }
+
+  .down-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .main-nav-lists,
+  .nav-registration {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .main-nav-list-item {
+    align-self: flex-start;
+  }
+
+  .main-nav-link {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .nav-registration {
+    margin-left: 0;
+  }
+
+  .log-in {
+    box-shadow: inset 0 0 0 0.2rem var(--color-purple-600);
+  }
+
+  .log-in,
+  .sign-up {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-block: 1.5rem;
+    width: 80%;
+  }
+}
+
+/**************************/
+/* BELOW 720px */
+/**************************/
+@media (max-width: 45em) {
+  .container {
+    padding-inline: 1.6rem;
+  }
+
+  .heading {
+    font-size: 3.8rem;
+    line-height: 4.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .member {
+    height: 45rem;
+  }
+
+  .member-data {
+    padding-inline: 1.5rem;
+  }
+
+  .member-data div {
+    margin-bottom: 0;
+  }
+
+  .member-name {
+    font-size: 2.5rem;
+  }
+
+  .member-projects {
+    margin-bottom: 1rem;
+  }
+
+  .feautures-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .feature-item {
+    align-self: flex-start;
+  }
+
+  .testimonials-attributes {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 2.4rem;
+  }
+
+  footer .registration {
+    flex-direction: column;
+  }
+
+  .footer-btn {
+    width: 100%;
+  }
+
+  .footer-list {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 3rem;
+  }
+
+  .arrow-icons-container {
+    margin: 0;
+  }
+}
+
+/**************************/
+/* BELOW 603px */
+/**************************/
+@media (max-width: 37.68em) {
+  .member {
+    height: 40rem;
+  }
+}
+
+/**************************/
+/* BELOW 553px */
+/**************************/
+@media (max-width: 34.5em) {
+  .nav-container {
+    left: 0;
+    width: 100%;
+  }
+
+  .nav-container,
+  .main-nav-lists {
+    row-gap: 3rem;
+  }
+
+  .nav-registration {
+    row-gap: 2rem;
+  }
+
+  .main-nav-link {
+    font-size: 2.7rem;
+  }
+
+  .heading-content .btn {
+    width: 60%;
+  }
+
+  .team-container {
+    grid-template-columns: 1fr;
+  }
+
+  .member {
+    height: 52rem;
+  }
+  .team-section {
+    margin-bottom: 7.2rem;
+  }
+
+  .team-container {
+    row-gap: 7.2rem;
+  }
+
+  .features-heading {
+    font-size: 3rem;
+  }
+
+  .features-support-text {
+    margin-bottom: 4rem;
+  }
+
+  .feautures-items {
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+    margin-bottom: 5.6rem;
+  }
+
+  .positions-container {
+    padding-top: 5rem;
+  }
+
+  .positions-content {
+    margin-bottom: 4rem;
+  }
+  .testimonials-container {
+    row-gap: 4rem;
+  }
+
+  .testimonials-heading,
+  .cta-heading {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .testimonials-text-box {
+    padding-block: 0;
+    gap: 2rem;
+  }
+
+  .cta-container {
+    padding-block: 4.5rem;
+  }
+
+  .cta-text-box {
+    margin-bottom: 2rem;
+  }
+
+  .cta-heading {
+    margin-bottom: 0;
+  }
+
+  .cta-container .registration {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .cta-container .btn {
+    width: 100%;
+  }
+
+  .footer-container {
+    padding-top: 4.4rem;
+  }
+
+  .footer-primary {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4.4rem;
+    row-gap: 3rem;
+  }
+  .footer-list {
+    justify-content: center;
+  }
+
+  .primary-text-box {
+    text-align: center;
+  }
+}
+
+/**************************/
+/* BELOW 368px */
+/**************************/
+@media (max-width: 23em) {
+  .header-nav {
+    padding-inline: 0;
+  }
+
+  .heading-content {
+    padding-block: 4.5rem;
+  }
+
+  .heading-content .btn {
+    width: 100%;
+  }
+
+  .team-container {
+    row-gap: 5rem;
+    padding: 0;
+  }
+
+  .team-section {
+    margin-bottom: 5rem;
+  }
+
+  .features-support-text {
+    margin-bottom: 3rem;
+  }
+
+  .feautures-items {
+    row-gap: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .positions-container {
+    padding-block: 4.5rem;
+    margin-inline: 1rem;
+  }
+
+  .name-and-bagde {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .badge-container {
+    margin-bottom: 1rem;
+  }
+
+  .positions-item:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+
+  .cta-container,
+  .footer-container,
+  .testimonials-text-box {
+    padding-inline: 1rem;
+  }
+
+  .testimonials-container {
+    padding-block: 4.5rem;
+  }
+
+  .testimonials-attributes {
+    row-gap: 1rem;
+  }
+
+  .footer-container {
+    gap: 4rem;
+  }
+
+  .footer-sub {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 2.4rem;
+  }
+}

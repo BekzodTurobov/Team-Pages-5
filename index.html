@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="UI Team Pages examples. We’re a small group of bright, motivated designers and developers all around the world. We’re growing fast and would love to meet you. Check out our open roles!"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="logo/logo.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link
+      rel="shortcut icon"
+      href="img/icons8-web-camera-96.png"
+      type="image/x-icon"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/config.js"></script>
+    <script defer src="js/app.js"></script>
+    <title>Team Pages || 5</title>
+  </head>
+  <body>
+    <!-- *********************************** -->
+    <!-- HEADER -->
+    <!-- *********************************** -->
+    <header class="header container">
+      <div class="header-nav">
+        <div class="logo-container">
+          <a href="#" class="logo" aria-label="Main Logotype">
+            <div class="logo-circle">
+              <div class="logo-round"></div>
+            </div>
+          </a>
+          <a href="#" class="logo-name">Untitled UI</a>
+        </div>
+        <!-- ***************************** -->
+        <!-- Navigation bar -->
+        <!-- ***************************** -->
+        <div class="nav-container">
+          <nav class="main-nav">
+            <ul class="main-nav-lists">
+              <!-- ************* -->
+              <li class="main-nav-list-item">
+                <a href="#team-section" class="main-nav-link underline">Home</a>
+              </li>
+              <!-- ************* -->
+              <li class="main-nav-list-item" id="list-item-1">
+                <div class="select-box">
+                  <ul class="options-container" id="container-1">
+                    <li class="option">
+                      <a class="main-nav-link" href="#testimonials">Products</a>
+                    </li>
+                    <li class="option">
+                      <a class="main-nav-link" href="#testimonials"
+                        >Product #1</a
+                      >
+                    </li>
+                    <li class="option">
+                      <a class="main-nav-link" href="#testimonials"
+                        >Product #2</a
+                      >
+                    </li>
+                    <li class="option">
+                      <a class="main-nav-link" href="#testimonials"
+                        >Product #3</a
+                      >
+                    </li>
+                    <li class="option">
+                      <a class="main-nav-link" href="#testimonials"
+                        >Product #4</a
+                      >
+                    </li>
+                    <li class="option">
+                      <a class="main-nav-link" href="#testimonials"
+                        >Product #5</a
+                      >
+                    </li>
+                    <li class="option">
+                      <a class="main-nav-link" href="#testimonials"
+                        >Product #6</a
+                      >
+                    </li>
+                  </ul>
+
+                  <div class="box">
+                    <a
+                      href="#testimonials"
+                      class="selected main-nav-link underline"
+                      data-box="1"
+                      id="products"
+                    >
+                      Products
+                    </a>
+                    <ion-icon
+                      class="down-icon"
+                      data-icon="1"
+                      id="icon-1"
+                      name="chevron-down-outline"
+                    ></ion-icon>
+                  </div>
+                </div>
+              </li>
+
+              <!-- ************* -->
+              <li class="main-nav-list-item">
+                <div class="select-box">
+                  <ul class="options-container" id="container-2">
+                    <li class="option">
+                      <a class="main-nav-link" href="#footer-resource-link-box"
+                        >Resources</a
+                      >
+                    </li>
+                    <li class="option">
+                      <a class="main-nav-link" href="#footer-resource-link-box"
+                        >Resource #1</a
+                      >
+                    </li>
+                    <li class="option">
+                      <a class="main-nav-link" href="#footer-resource-link-box"
+                        >Resource #2</a
+                      >
+                    </li>
+                    <li class="option">
+                      <a class="main-nav-link" href="#footer-resource-link-box"
+                        >Resource #3</a
+                      >
+                    </li>
+                    <li class="option">
+                      <a class="main-nav-link" href="#footer-resource-link-box"
+                        >Resource #4</a
+                      >
+                    </li>
+                    <li class="option">
+                      <a class="main-nav-link" href="#footer-resource-link-box"
+                        >Resource #5</a
+                      >
+                    </li>
+                    <li class="option">
+                      <a class="main-nav-link" href="#footer-resource-link-box"
+                        >Resource #6</a
+                      >
+                    </li>
+                  </ul>
+
+                  <div class="box">
+                    <a
+                      href="#footer-resource-link-box"
+                      class="selected main-nav-link underline"
+                      data-box="2"
+                      id="resources"
+                    >
+                      Resources
+                    </a>
+                    <ion-icon
+                      class="down-icon"
+                      data-icon="2"
+                      id="icon-2"
+                      name="chevron-down-outline"
+                    ></ion-icon>
+                  </div>
+                </div>
+              </li>
+              <!-- ************* -->
+
+              <li class="main-nav-list-item">
+                <a href="#position-section" class="main-nav-link underline"
+                  >Pricing</a
+                >
+              </li>
+              <!-- ************* -->
+            </ul>
+          </nav>
+
+          <div class="nav-registration">
+            <button class="btn btn--full log-in">Log in</button>
+            <button class="btn btn--outline sign-up">Sign up</button>
+          </div>
+        </div>
+
+        <button class="btn-mobile-nav">
+          <div class="hamburger-icon"></div>
+        </button>
+      </div>
+    </header>
+    <main>
+      <!-- *********************************** -->
+      <!-- HEADING SECTION-->
+      <!-- *********************************** -->
+      <section class="heading-section container">
+        <div class="heading-content">
+          <span class="sub-heading">Get to know us</span>
+          <h1 class="heading">Meet the makers behind Untitled</h1>
+          <p class="heading-support-text subtext">
+            We’re a small group of bright, motivated designers and developers
+            all around the world. We’re growing fast and would love to meet you.
+            Check out our open roles!
+          </p>
+          <button class="btn btn--outline">Get started</button>
+        </div>
+      </section>
+      <!-- *********************************** -->
+      <!-- TEAM SECTION -->
+      <!-- *********************************** -->
+      <section class="team-section container" id="team-section">
+        <div class="team-container">
+          <div class="member">
+            <div class="member-data">
+              <div>
+                <h2 class="member-name">Bobby Lovejoy</h2>
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="3"
+                    stroke="currentColor"
+                    class="up-right-arrow"
+                    width="16"
+                    height="16"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <h3 class="member-position">Founder & CEO</h3>
+              <p class="member-projects">
+                Former co-founder of Opendoor. Early staff at Spotify and
+                Clearbit.
+              </p>
+              <ul class="social-links">
+                <li>
+                  <a class="social-link" href="https://www.twitter.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-twitter"
+                    ></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a class="social-link" href="https://linkedin.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-linkedin"
+                    ></ion-icon
+                  ></a>
+                </li>
+
+                <li>
+                  <a class="social-link last" href="https://dribbble.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-dribbble"
+                    ></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="member">
+            <div class="member-data">
+              <div>
+                <h2 class="member-name">Othmanel Marzak</h2>
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="3"
+                    stroke="currentColor"
+                    class="up-right-arrow"
+                    width="16"
+                    height="16"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <h3 class="member-position">Engineering Manager</h3>
+              <p class="member-projects">
+                Lead engineering teams at Figma, Pitch, and Protocol Labs.
+              </p>
+              <ul class="social-links">
+                <li>
+                  <a class="social-link" href="https://www.twitter.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-twitter"
+                    ></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a class="social-link" href="https://linkedin.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-linkedin"
+                    ></ion-icon
+                  ></a>
+                </li>
+
+                <li>
+                  <a class="social-link last" href="https://dribbble.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-dribbble"
+                    ></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="member">
+            <div class="member-data">
+              <div>
+                <h2 class="member-name">Ali Karimiboujeni</h2>
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="3"
+                    stroke="currentColor"
+                    class="up-right-arrow"
+                    width="16"
+                    height="16"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <h3 class="member-position">Product Manager</h3>
+              <p class="member-projects">
+                Former PM for Airtable, Medium, Ghost, and Lumi.
+              </p>
+              <ul class="social-links">
+                <li>
+                  <a class="social-link" href="https://www.twitter.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-twitter"
+                    ></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a class="social-link" href="https://linkedin.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-linkedin"
+                    ></ion-icon
+                  ></a>
+                </li>
+
+                <li>
+                  <a class="social-link last" href="https://dribbble.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-dribbble"
+                    ></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="member">
+            <div class="member-data">
+              <div>
+                <h2 class="member-name">Abraham George</h2>
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="3"
+                    stroke="currentColor"
+                    class="up-right-arrow"
+                    width="16"
+                    height="16"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <h3 class="member-position">Frontend Developer</h3>
+              <p class="member-projects">
+                Former frontend dev for Linear, Coinbase, and Postscript.
+              </p>
+              <ul class="social-links">
+                <li>
+                  <a class="social-link" href="https://www.twitter.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-twitter"
+                    ></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a class="social-link" href="https://linkedin.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-linkedin"
+                    ></ion-icon
+                  ></a>
+                </li>
+
+                <li>
+                  <a class="social-link last" href="https://dribbble.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-dribbble"
+                    ></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="member">
+            <div class="member-data">
+              <div>
+                <h2 class="member-name">Pouria Seriafi</h2>
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="3"
+                    stroke="currentColor"
+                    class="up-right-arrow"
+                    width="16"
+                    height="16"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <h3 class="member-position">Backend Developer</h3>
+              <p class="member-projects">
+                Lead backend dev at Clearbit. Former Clearbit and Loom.
+              </p>
+              <ul class="social-links">
+                <li>
+                  <a class="social-link" href="https://www.twitter.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-twitter"
+                    ></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a class="social-link" href="https://linkedin.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-linkedin"
+                    ></ion-icon
+                  ></a>
+                </li>
+
+                <li>
+                  <a class="social-link last" href="https://dribbble.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-dribbble"
+                    ></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="member">
+            <div class="member-data">
+              <div>
+                <h2 class="member-name">Justin clark</h2>
+                <span class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="3"
+                    stroke="currentColor"
+                    class="up-right-arrow"
+                    width="16"
+                    height="16"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <h3 class="member-position">Product Designer</h3>
+              <p class="member-projects">
+                Founding design team at Figma. Former Pleo, Stripe, and Tile.
+              </p>
+              <ul class="social-links">
+                <li>
+                  <a class="social-link" href="https://www.twitter.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-twitter"
+                    ></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a class="social-link" href="https://linkedin.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-linkedin"
+                    ></ion-icon
+                  ></a>
+                </li>
+
+                <li>
+                  <a class="social-link last" href="https://dribbble.com/"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-dribbble"
+                    ></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- *********************************** -->
+      <!-- FEATURES SECTION -->
+      <!-- *********************************** -->
+      <section class="features-section container">
+        <div class="features-container">
+          <div class="features-content">
+            <span class="features-sub-heading">Our values</span>
+            <h2 class="features-heading main-text">
+              We’re an ambitious and smart team <br />
+              with a shared mission
+            </h2>
+            <p class="features-support-text subtext">
+              Our shared values keep us connected and guide us as one team.
+            </p>
+          </div>
+          <div class="feautures-items">
+            <!-- FEATURE ITEM 1 -->
+            <div class="feature-item">
+              <div class="feature-icon-box">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h3 class="feature-item-text">Care about our team</h3>
+              <p class="feature-item-support-text">
+                Understand what matters to our employees. Give them what they
+                need to do their best work.
+              </p>
+            </div>
+            <!-- FEATURE ITEM 2 -->
+            <div class="feature-item">
+              <div class="feature-icon-box">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h3 class="feature-item-text">Be excellent to each other</h3>
+              <p class="feature-item-support-text">
+                No games. No bullshit. We rely on our peers to improve. Be open,
+                honest and kind.
+              </p>
+            </div>
+            <!-- FEATURE ITEM 3 -->
+            <div class="feature-item">
+              <div class="feature-icon-box">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h3 class="feature-item-text">Pride in what we do</h3>
+              <p class="feature-item-support-text">
+                Value quality and integrity in everything we do. At all times.
+                No exceptions.
+              </p>
+            </div>
+            <!-- FEATURE ITEM 4 -->
+            <div class="feature-item">
+              <div class="feature-icon-box">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h3 class="feature-item-text">Don't #!&$ the customer</h3>
+              <p class="feature-item-support-text">
+                Understand customers' stated and unstated needs. Make them
+                wildly successful.
+              </p>
+            </div>
+            <!-- FEATURE ITEM 5 -->
+            <div class="feature-item">
+              <div class="feature-icon-box">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h3 class="feature-item-text">Do the impossible</h3>
+              <p class="feature-item-support-text">
+                Be energized by difficult problems. Revel in unknowns. Ask
+                "Why?", but always question, "Why not?"
+              </p>
+            </div>
+            <!-- FEATURE ITEM 6 -->
+            <div class="feature-item">
+              <div class="feature-icon-box">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="24"
+                    fill="#7f56d9"
+                    viewBox="0 0 256 256"
+                    class="icon"
+                  >
+                    <circle
+                      cx="128"
+                      cy="128"
+                      r="88"
+                      fill="none"
+                      stroke="#7f56d9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="20"
+                    ></circle>
+                    <line
+                      x1="128"
+                      y1="20"
+                      x2="128"
+                      y2="60"
+                      fill="none"
+                      stroke="#7f56d9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="20"
+                    ></line>
+                    <line
+                      x1="20"
+                      y1="128"
+                      x2="60"
+                      y2="128"
+                      fill="none"
+                      stroke="#7f56d9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="20"
+                    ></line>
+                    <line
+                      x1="128"
+                      y1="236"
+                      x2="128"
+                      y2="196"
+                      fill="none"
+                      stroke="#7f56d9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="20"
+                    ></line>
+                    <line
+                      x1="236"
+                      y1="128"
+                      x2="196"
+                      y2="128"
+                      fill="none"
+                      stroke="#7f56d9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="20"
+                    ></line>
+                    <circle
+                      cx="128"
+                      cy="128"
+                      r="32"
+                      fill="none"
+                      stroke="#7f56d9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="20"
+                    ></circle>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="feature-item-text">Do the impossible</h3>
+              <p class="feature-item-support-text">
+                Be energized by difficult problems. Revel in unknowns. Ask
+                "Why?", but always question, "Why not?"
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- *********************************** -->
+      <!-- OPEN POSITION SECTION -->
+      <!-- *********************************** -->
+      <section class="positions-section container" id="position-section">
+        <div class="positions-container">
+          <div class="positions-content">
+            <h2 class="positions-heading main-text">Open positions</h2>
+            <p class="positions-support-text subtext">
+              We’re a 100% remote team spread all across the world. Join us!
+            </p>
+          </div>
+          <ul class="positions-items">
+            <!-- 1st Position -->
+            <li class="positions-item">
+              <div class="name-and-bagde">
+                <h2 class="position-name">Product designer</h2>
+                <div class="badge-container">
+                  <span class="dot"></span>
+                  <span class="tag">Design</span>
+                </div>
+              </div>
+              <p class="position-requirements">
+                We’re looking for a mid-level product designer to join our team.
+              </p>
+              <div class="working-details">
+                <div>
+                  <ion-icon
+                    class="working-type-icon"
+                    name="location-outline"
+                  ></ion-icon>
+                  <span class="working-type"> Remote</span>
+                </div>
+                <div>
+                  <ion-icon
+                    class="working-type-icon"
+                    name="time-outline"
+                  ></ion-icon>
+                  <span class="working-type"> Full-time</span>
+                </div>
+              </div>
+            </li>
+            <!-- 2st Position -->
+            <li class="positions-item">
+              <div class="name-and-bagde">
+                <h2 class="position-name">Engineering Manager</h2>
+                <div class="badge-container">
+                  <span class="dot"></span>
+                  <span class="tag">Software Development</span>
+                </div>
+              </div>
+              <p class="position-requirements">
+                We’re looking for an experienced engineering manager to join our
+                team.
+              </p>
+              <div class="working-details">
+                <div>
+                  <ion-icon
+                    class="working-type-icon"
+                    name="location-outline"
+                  ></ion-icon>
+                  <span class="working-type"> Remote</span>
+                </div>
+                <div>
+                  <ion-icon
+                    class="working-type-icon"
+                    name="time-outline"
+                  ></ion-icon>
+                  <span class="working-type"> Full-time</span>
+                </div>
+              </div>
+            </li>
+            <!-- 3st Position -->
+            <li class="positions-item">
+              <div class="name-and-bagde">
+                <h2 class="position-name">Product designer</h2>
+                <div class="badge-container">
+                  <span class="dot"></span>
+                  <span class="tag">Careers</span>
+                </div>
+              </div>
+              <p class="position-requirements">
+                We’re looking for a mid-level product designer to join our team.
+              </p>
+              <div class="working-details">
+                <div>
+                  <ion-icon
+                    class="working-type-icon"
+                    name="location-outline"
+                  ></ion-icon>
+                  <span class="working-type"> Remote</span>
+                </div>
+                <div>
+                  <ion-icon
+                    class="working-type-icon"
+                    name="time-outline"
+                  ></ion-icon>
+                  <span class="working-type"> Full-time</span>
+                </div>
+              </div>
+            </li>
+            <!-- 4st Position -->
+            <li class="positions-item">
+              <div class="name-and-bagde">
+                <h2 class="position-name">Product designer</h2>
+                <div class="badge-container">
+                  <span class="dot"></span>
+                  <span class="tag">Sales</span>
+                </div>
+              </div>
+              <p class="position-requirements">
+                We’re looking for a mid-level product designer to join our team.
+              </p>
+              <div class="working-details">
+                <div>
+                  <ion-icon
+                    class="working-type-icon"
+                    name="location-outline"
+                  ></ion-icon>
+                  <span class="working-type"> Remote</span>
+                </div>
+                <div>
+                  <ion-icon
+                    class="working-type-icon"
+                    name="time-outline"
+                  ></ion-icon>
+                  <span class="working-type"> Full-time</span>
+                </div>
+              </div>
+            </li>
+            <!-- 5st Position -->
+            <li class="positions-item">
+              <div class="name-and-bagde">
+                <h2 class="position-name">Product designer</h2>
+                <div class="badge-container">
+                  <span class="dot"></span>
+                  <span class="tag">Marketing</span>
+                </div>
+              </div>
+              <p class="position-requirements">
+                We’re looking for a mid-level product designer to join our team.
+              </p>
+              <div class="working-details">
+                <div>
+                  <ion-icon
+                    class="working-type-icon"
+                    name="location-outline"
+                  ></ion-icon>
+                  <span class="working-type"> Remote</span>
+                </div>
+                <div>
+                  <ion-icon
+                    class="working-type-icon"
+                    name="time-outline"
+                  ></ion-icon>
+                  <span class="working-type"> Full-time</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- *********************************** -->
+      <!-- TESTIMONIALS SECTION -->
+      <!-- *********************************** -->
+      <section class="testimonials-section container" id="testimonials">
+        <div class="testimonials-container">
+          <div class="testimonials-text-box">
+            <span class="stars"
+              ><ion-icon class="star-icon" name="star"></ion-icon
+              ><ion-icon class="star-icon" name="star"></ion-icon
+              ><ion-icon class="star-icon" name="star"></ion-icon
+              ><ion-icon class="star-icon" name="star"></ion-icon
+              ><ion-icon class="star-icon" name="star"></ion-icon
+            ></span>
+            <h2 class="testimonials-heading">
+              “I've been welcomed warmly to the team and now I never want to
+              leave.”
+            </h2>
+            <div class="testimonials-attributes">
+              <img
+                class="avatar"
+                src="/img/webp/Katherine-4.webp"
+                alt="Katherine Moss"
+              />
+              <div class="avatar-items">
+                <h3 class="avatar-name">Katherine Moss</h3>
+                <p class="avatar-text">Project Manager, Untitled</p>
+              </div>
+              <div class="arrow-icons-container">
+                <div class="arrow-icons-box">
+                  <ion-icon
+                    class="arrow-icon"
+                    name="arrow-back-outline"
+                  ></ion-icon>
+                </div>
+                <div class="arrow-icons-box">
+                  <ion-icon
+                    class="arrow-icon"
+                    name="arrow-forward-outline"
+                  ></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- TESTIMONIAL IMAGES -->
+          <div class="testimonials-img-container">
+            <div class="first-row">
+              <img
+                class="testimonials-img"
+                src="/img/webp/Image-4.webp"
+                alt=""
+              />
+              <img class="testimonials-img" src="/img/webp/Image.webp" alt="" />
+            </div>
+            <div class="second-row">
+              <img
+                class="testimonials-img"
+                src="/img/webp/Image-2.webp"
+                alt=""
+              />
+              <img
+                class="testimonials-img"
+                src="/img/webp/Image-3.webp"
+                alt=""
+              />
+              <img
+                class="testimonials-img"
+                src="/img/webp/Image-1.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- *********************************** -->
+      <!-- CTA SECTION -->
+      <!-- *********************************** -->
+      <section class="cta-section container">
+        <div class="cta-container">
+          <div class="cta-text-box">
+            <h2 class="cta-heading main-text">Join our careers newsletter</h2>
+            <p class="cta-support-text subtext">
+              Be the first to know when new jobs are posted!
+            </p>
+          </div>
+          <div class="registration">
+            <div class="input-box">
+              <input
+                class="email-input"
+                type="email"
+                name=""
+                id=""
+                placeholder="Enter your email"
+              />
+              <p class="privacy-text">
+                We care about your data in our
+                <a class="privacy" href="#">privacy policy.</a>
+              </p>
+            </div>
+            <button class="btn btn--outline btn-subscribe">Subcribe</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- *********************************** -->
+    <!-- FOOTER -->
+    <!-- *********************************** -->
+    <footer>
+      <section class="footer-section container">
+        <div class="footer-container">
+          <div class="footer-primary">
+            <div class="primary-text-box">
+              <h3 class="primary-text">Join our newsletter</h3>
+              <p class="supporting-text">
+                We’ll send you a nice letter once per week. No spam.
+              </p>
+            </div>
+            <div class="registration">
+              <input
+                class="email-input footer-email-input"
+                type="text"
+                name=""
+                id=""
+                placeholder="Enter your email"
+              />
+              <button class="btn btn--outline footer-btn">Subscribe</button>
+            </div>
+          </div>
+
+          <!----= FOOTER LINK BOX ----->
+
+          <div class="footer-resource-link-box" id="footer-resource-link-box">
+            <div class="footer-list">
+              <nav class="nav-col">
+                <p class="footer-heading">Product</p>
+                <ul class="footer-nav">
+                  <li><a href="#" class="footer-link">Overview</a></li>
+                  <li><a href="#" class="footer-link">Features</a></li>
+                  <li>
+                    <a href="#" class="footer-link solution">Solutions</a>
+                  </li>
+                  <li><a href="#" class="footer-link">Tutorials</a></li>
+                  <li><a href="#" class="footer-link">Pricing</a></li>
+                  <li><a href="#" class="footer-link">Releases</a></li>
+                </ul>
+              </nav>
+              <nav class="nav-col">
+                <p class="footer-heading">Company</p>
+                <ul class="footer-nav">
+                  <li><a href="#" class="footer-link">About us</a></li>
+                  <li><a href="#" class="footer-link">Careers</a></li>
+                  <li><a href="#" class="footer-link">Press</a></li>
+                  <li><a href="#" class="footer-link">News</a></li>
+                  <li><a href="#" class="footer-link">Media kit</a></li>
+                  <li><a href="#" class="footer-link">Contact</a></li>
+                </ul>
+              </nav>
+              <nav class="nav-col">
+                <p class="footer-heading">Use cases</p>
+                <ul class="footer-nav">
+                  <li><a href="#" class="footer-link">Startups</a></li>
+                  <li><a href="#" class="footer-link">Enterprise</a></li>
+                  <li><a href="#" class="footer-link">Government</a></li>
+                  <li><a href="#" class="footer-link">SaaS centre</a></li>
+                  <li><a href="#" class="footer-link">Marketplaces</a></li>
+                  <li><a href="#" class="footer-link">Ecommerce</a></li>
+                </ul>
+              </nav>
+              <nav class="nav-col">
+                <p class="footer-heading">Resources</p>
+                <ul class="footer-nav">
+                  <li><a href="#" class="footer-link">Blog</a></li>
+                  <li><a href="#" class="footer-link">Newsletter</a></li>
+                  <li><a href="#" class="footer-link">Events</a></li>
+                  <li><a href="#" class="footer-link">Help centre</a></li>
+                  <li><a href="#" class="footer-link">Tutorials</a></li>
+                  <li><a href="#" class="footer-link">Support</a></li>
+                </ul>
+              </nav>
+              <nav class="nav-col">
+                <p class="footer-heading">Social</p>
+                <ul class="footer-nav">
+                  <li><a href="#" class="footer-link">Twitter</a></li>
+                  <li><a href="#" class="footer-link">LinkedIn</a></li>
+                  <li><a href="#" class="footer-link">Facebook</a></li>
+                  <li><a href="#" class="footer-link">GitHub</a></li>
+                  <li><a href="#" class="footer-link">AngelList</a></li>
+                  <li><a href="#" class="footer-link">Dribbble</a></li>
+                </ul>
+              </nav>
+              <nav class="nav-col">
+                <p class="footer-heading">Legal</p>
+                <ul class="footer-nav">
+                  <li><a href="#" class="footer-link">Terms</a></li>
+                  <li><a href="#" class="footer-link">Privacy</a></li>
+                  <li><a href="#" class="footer-link">Cookies</a></li>
+                  <li><a href="#" class="footer-link">Licenses</a></li>
+                  <li><a href="#" class="footer-link">Settings</a></li>
+                  <li><a href="#" class="footer-link">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <!----= FOOTER BOTTOM----->
+          <div class="footer-sub">
+            <div class="logo-container">
+              <a href="#" class="logo" aria-label="Main Logotype">
+                <div class="logo-circle">
+                  <div class="logo-round"></div>
+                </div>
+              </a>
+              <a href="#" class="logo-name">Untitled UI</a>
+            </div>
+            <p class="copyright-text">
+              © <span id="current-year">2077</span> Untitled UI. All rights
+              reserved.
+            </p>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
