@@ -306,12 +306,38 @@
   .member {
     height: 40rem;
   }
+
+  .feature-item-support-text {
+    max-width: 30rem;
+  }
+
+  .heading-support-text {
+    font-size: 1.9rem;
+    max-width: 66.8rem;
+  }
+
+  .positions-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 /**************************/
 /* BELOW 553px */
 /**************************/
 @media (max-width: 34.5em) {
+  .heading,
+  .main-text,
+  .testimonials-heading {
+    font-size: 3.4rem;
+  }
+
+  .heading-support-text,
+  .features-support-text {
+    max-width: 53rem;
+  }
+
   .nav-container {
     left: 0;
     width: 100%;
@@ -331,16 +357,18 @@
   }
 
   .heading-content .btn {
-    width: 60%;
+    width: 65%;
   }
 
   .team-container {
     grid-template-columns: 1fr;
+    column-gap: 0;
   }
 
   .member {
     height: 52rem;
   }
+
   .team-section {
     margin-bottom: 7.2rem;
   }
@@ -370,6 +398,7 @@
   .positions-content {
     margin-bottom: 4rem;
   }
+
   .testimonials-container {
     row-gap: 4rem;
   }
@@ -381,6 +410,7 @@
   }
 
   .testimonials-text-box {
+    max-width: 64rem;
     padding-block: 0;
     gap: 2rem;
   }
@@ -429,7 +459,21 @@
 /* BELOW 368px */
 /**************************/
 @media (max-width: 23em) {
-  .header-nav {
+  .heading,
+  .main-text,
+  .testimonials-heading {
+    font-size: 2.6rem;
+  }
+
+  .heading-support-text,
+  .features-support-text,
+  .testimonials-text-box,
+  .cta-support-text {
+    font-size: 1.7rem;
+    max-width: 43rem;
+  }
+
+  .cta-support-text .header-nav {
     padding-inline: 0;
   }
 
@@ -438,7 +482,7 @@
   }
 
   .heading-content .btn {
-    width: 100%;
+    width: 53%;
   }
 
   .team-container {
@@ -451,6 +495,8 @@
   }
 
   .features-support-text {
+    font-size: 1.7rem;
+    max-width: 43rem;
     margin-bottom: 3rem;
   }
 
@@ -462,6 +508,12 @@
   .positions-container {
     padding-block: 4.5rem;
     margin-inline: 1rem;
+  }
+
+  .positions-support-text,
+  .positions-items {
+    margin: auto;
+    width: 40rem;
   }
 
   .name-and-bagde {
