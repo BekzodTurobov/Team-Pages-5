@@ -279,6 +279,7 @@
   letter-spacing: -0.02em;
   margin-bottom: 2.4rem;
 }
+
 .heading-support-text {
   max-width: 76.8rem;
   margin-bottom: 4rem;
@@ -494,8 +495,7 @@
 /* *********************************** */
 .positions-container {
   padding: 9.6rem 0;
-  margin-left: 3.2rem;
-  margin-right: 3.2rem;
+  margin-inline: 3.2rem;
   border-bottom: 2px solid var(--color-grey-100);
 }
 
